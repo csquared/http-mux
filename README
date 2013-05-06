@@ -24,6 +24,13 @@ And/or create a `forward-targets.json` such as:
 
 Then run with
 
-    PORT=5000 ./bin/web
+    > PORT=3000 ./bin/web
+    Forwarding to: google.com:80,localhost:3456,localhost:3333
+    Proxy up on port 3000
 
 and you're off!
+
+Send requests via:
+
+    curl http://localhost:3000/
+
