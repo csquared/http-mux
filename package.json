@@ -1,0 +1,16 @@
+{
+  "name": "heroku-http-bouncer",
+  "version": "0.0.0",
+  "description": "duplicating proxy server meant to run as a heroku app",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies" : {
+    "coffee-script" : "*",
+    "http-proxy" : "*"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD"
+}
